@@ -189,8 +189,8 @@ public class CustomerController extends SimpleUrlAuthenticationSuccessHandler im
         return redirectStrategy;
     }
 
-    @Override
-    public String getErrorPath() {
-       return null;
-    }
+//    @Override
+//    public String getErrorPath() {
+//        return null;
+//    }
 }
